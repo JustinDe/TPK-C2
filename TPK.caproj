@@ -41,11 +41,6 @@
     <object-folder>
         <object-type name="Zyra" sid="1860816384280246">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="9628210555885949" type="string" />
-                <instance-variable name="HP" sid="1106388689778976" type="number" />
-                <instance-variable name="Active" sid="6587299796407774" type="boolean" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9441669284619683" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\thief.jpg" />
@@ -54,11 +49,6 @@
         </object-type>
         <object-type name="Rekka" sid="9030874730691802">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="6487004957289214" type="string" />
-                <instance-variable name="Active" sid="2418540643809176" type="boolean" />
-                <instance-variable name="HP" sid="7746594637597059" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7535919629071439" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter3.jpg" />
@@ -67,11 +57,6 @@
         </object-type>
         <object-type name="Jarzoka" sid="1480949791596519">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="4001759646692873" type="string" />
-                <instance-variable name="Active" sid="3761398252658641" type="boolean" />
-                <instance-variable name="HP" sid="6374277738701838" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7113411647610313" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter2.jpg" />
@@ -80,11 +65,6 @@
         </object-type>
         <object-type name="Lizen" sid="6486641849877276">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="7059196189527205" type="string" />
-                <instance-variable name="Active" sid="3383041795934755" type="boolean" />
-                <instance-variable name="HP" sid="9352781203515322" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505320170287154" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
@@ -93,11 +73,6 @@
         </object-type>
         <object-type name="Ashkel" sid="7899576022025719">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="3509449735357132" type="string" />
-                <instance-variable name="Active" sid="1487483479460836" type="boolean" />
-                <instance-variable name="HP" sid="7987775652587248" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1322073548836598" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage1.jpg" />
@@ -106,11 +81,6 @@
         </object-type>
         <object-type name="Luna" sid="5415480533085212">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="9060596253254364" type="string" />
-                <instance-variable name="Active" sid="4840906646613828" type="boolean" />
-                <instance-variable name="HP" sid="3551177899998764" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1906291676182395" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage2.jpg" />
@@ -119,11 +89,6 @@
         </object-type>
         <object-type name="Vho" sid="3104599204646801">
             <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="5655900572886954" type="string" />
-                <instance-variable name="Active" sid="4813428997640989" type="boolean" />
-                <instance-variable name="HP" sid="913247667903614" type="number" />
-            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9352979248257084" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage3.jpg" />
@@ -197,6 +162,46 @@
         </object-type>
         <object-type name="Debug" sid="4498326727862694">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="MadWolf" sid="352948392864873">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388477952140886" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Hans" sid="8621874685784138">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666982012033692" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Marle" sid="1018693047194874">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4692791563911939" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vinsomen" sid="7526457920678805">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8100027516328145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Yarko" sid="9030898333112528">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116354829520254" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

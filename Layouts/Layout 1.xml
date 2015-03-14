@@ -36,16 +36,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Rekka Knuckletusk</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>300</x>
-                        <y>620</y>
+                        <x>80</x>
+                        <y>822</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -63,16 +58,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Jarzoka</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>810</x>
-                        <y>620</y>
+                        <x>236</x>
+                        <y>822</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -90,16 +80,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Dame Lizen of Holg</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>470</x>
-                        <y>620</y>
+                        <x>391</x>
+                        <y>821</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -117,16 +102,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Ashkel Astar</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>980</x>
-                        <y>620</y>
+                        <x>81</x>
+                        <y>1019</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -144,16 +124,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Luna Manticrest</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
-                        <y>620</y>
+                        <x>238</x>
+                        <y>1018</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -171,16 +146,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Vho Lo&apos;ka</Name>
-                        <Active>false</Active>
-                        <HP>5</HP>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>717</x>
-                        <y>1060</y>
+                        <x>392</x>
+                        <y>1018</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -198,16 +168,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Name>Zyra the Fool</Name>
-                        <HP>5</HP>
-                        <Active>false</Active>
-                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>954</x>
-                        <y>1036</y>
+                        <x>556</x>
+                        <y>1219</y>
                         <z>0</z>
                         <width>150</width>
                         <height>193</height>
@@ -376,6 +341,116 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MadWolf" uid="13">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>549</x>
+                        <y>822</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>193</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Hans" uid="14">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>552</x>
+                        <y>1021</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>193</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Marle" uid="15">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>82</x>
+                        <y>1217</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>193</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Vinsomen" uid="16">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>240</x>
+                        <y>1216</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>193</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Yarko" uid="17">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>399</x>
+                        <y>1214</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>193</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

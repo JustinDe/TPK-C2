@@ -40,5 +40,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/RekkaCleave/" />
         <folder expanded="1" path="animation-folder/RekkaShieldBash/" />
         <folder expanded="1" path="animation-folder/RekkaFlee/" />
+        <folder expanded="1" path="animation-folder/MadWolf/" />
+        <folder expanded="1" path="animation-folder/Hans/" />
+        <folder expanded="1" path="animation-folder/Marle/" />
+        <folder expanded="1" path="animation-folder/Vinsomen/" />
+        <folder expanded="1" path="animation-folder/Yarko/" />
     </folders-expanded>
 </c2uistate>
