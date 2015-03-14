@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TPK</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>19500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Zyra" sid="1860816384280246">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="9628210555885949" type="string" />
+                <instance-variable name="HP" sid="1106388689778976" type="number" />
+                <instance-variable name="Active" sid="6587299796407774" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9441669284619683" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\thief.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Rekka" sid="9030874730691802">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="6487004957289214" type="string" />
+                <instance-variable name="Active" sid="2418540643809176" type="boolean" />
+                <instance-variable name="HP" sid="7746594637597059" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7535919629071439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter3.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Jarzoka" sid="1480949791596519">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="4001759646692873" type="string" />
+                <instance-variable name="Active" sid="3761398252658641" type="boolean" />
+                <instance-variable name="HP" sid="6374277738701838" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7113411647610313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lizen" sid="6486641849877276">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="7059196189527205" type="string" />
+                <instance-variable name="Active" sid="3383041795934755" type="boolean" />
+                <instance-variable name="HP" sid="9352781203515322" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505320170287154" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ashkel" sid="7899576022025719">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="3509449735357132" type="string" />
+                <instance-variable name="Active" sid="1487483479460836" type="boolean" />
+                <instance-variable name="HP" sid="7987775652587248" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1322073548836598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Luna" sid="5415480533085212">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="9060596253254364" type="string" />
+                <instance-variable name="Active" sid="4840906646613828" type="boolean" />
+                <instance-variable name="HP" sid="3551177899998764" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1906291676182395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Vho" sid="3104599204646801">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="5655900572886954" type="string" />
+                <instance-variable name="Active" sid="4813428997640989" type="boolean" />
+                <instance-variable name="HP" sid="913247667903614" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9352979248257084" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage3.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RekkaStrike1" sid="6477553707789005">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="5495588485000443" type="string" />
+                <instance-variable name="Usable" sid="849827094451171" type="boolean" />
+                <instance-variable name="ActionNumber" sid="4266163255012956" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4996264749476507" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RekkaStrike2" sid="6359589439458419">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="4662818833021862" type="string" />
+                <instance-variable name="Usable" sid="6189150128797309" type="boolean" />
+                <instance-variable name="ActionNumber" sid="5038836989645646" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8382273423414645" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RekkaCleave" sid="4492307565251342">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="2691793671151858" type="string" />
+                <instance-variable name="Usable" sid="7118314345713102" type="boolean" />
+                <instance-variable name="ActionNumber" sid="4839789373384287" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4089866952942022" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\cleave.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RekkaShieldBash" sid="8326751795763756">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="8702136520493286" type="string" />
+                <instance-variable name="Usable" sid="7961404613668039" type="boolean" />
+                <instance-variable name="ActionNumber" sid="8442706648975108" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4524756625600025" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\shieldbash.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RekkaFlee" sid="7359559650409952">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Name" sid="1643875407454437" type="string" />
+                <instance-variable name="Usable" sid="3219506928248111" type="boolean" />
+                <instance-variable name="ActionNumber" sid="1696242897047771" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1825551908450689" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\run.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Debug" sid="4498326727862694">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
