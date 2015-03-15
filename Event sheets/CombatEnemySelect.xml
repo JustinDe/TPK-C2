@@ -27,6 +27,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="5774967846822098" type="System" />
             </actions>
         </event-block>
         <event-block sid="3821249874617065">
@@ -52,6 +53,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="3198281144178002" type="System" />
             </actions>
         </event-block>
         <event-block sid="6047639452060766">
@@ -77,6 +79,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="3729532043350363" type="System" />
             </actions>
         </event-block>
         <event-block sid="5971984811802414">
@@ -102,6 +105,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="6462408670767896" type="System" />
             </actions>
         </event-block>
         <event-block sid="9338097364866694">
@@ -127,6 +131,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="7080407666412917" type="System" />
             </actions>
         </event-block>
         <event-block sid="8826405359698128">
@@ -152,6 +157,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="7499960673960604" type="System" />
             </actions>
         </event-block>
         <event-block sid="3292086059732233">
@@ -177,6 +183,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="8536318341667576" type="System" />
             </actions>
         </event-block>
         <event-block sid="4669416867284565">
@@ -202,6 +209,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="6431964395643758" type="System" />
             </actions>
         </event-block>
         <event-block sid="5206571758170299">
@@ -227,6 +235,7 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="4557585960825957" type="System" />
             </actions>
         </event-block>
     </events>

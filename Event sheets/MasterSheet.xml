@@ -8,5 +8,6 @@
         <include>CombatActionSelect</include>
         <include>CombatEnemySelect</include>
         <include>CombatCalc</include>
+        <include>CombatHouseKeeper</include>
     </events>
 </c2eventsheet>

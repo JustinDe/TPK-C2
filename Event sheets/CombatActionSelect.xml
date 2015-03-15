@@ -9,11 +9,17 @@
                 <condition id="17" name="On tap object" sid="6102525586659716" type="Touch">
                     <param id="0" name="Object">Action1</param>
                 </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4642527512631295" type="Action1">
+                    <param id="0" name="Instance variable">Usable</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="1431311893806734" type="System">
                     <param id="0" name="Variable">ActionSelected</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="1" name="Append text" sid="9246742130274661" type="Debug">
+                    <param id="0" name="Text">&quot;Action 1 Fire&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -21,6 +27,9 @@
             <conditions>
                 <condition id="17" name="On tap object" sid="992443083712077" type="Touch">
                     <param id="0" name="Object">Action2</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8111327190315544" type="Action2">
+                    <param id="0" name="Instance variable">Usable</param>
                 </condition>
             </conditions>
             <actions>
@@ -35,6 +44,9 @@
                 <condition id="17" name="On tap object" sid="2604380661161469" type="Touch">
                     <param id="0" name="Object">Action3</param>
                 </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="4206605699367208" type="Action3">
+                    <param id="0" name="Instance variable">Usable</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="4031822644562703" type="System">
@@ -48,6 +60,9 @@
                 <condition id="17" name="On tap object" sid="839194080843559" type="Touch">
                     <param id="0" name="Object">Action4</param>
                 </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1141300538107195" type="Action4">
+                    <param id="0" name="Instance variable">Usable</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="3404819364474261" type="System">
@@ -60,6 +75,9 @@
             <conditions>
                 <condition id="17" name="On tap object" sid="5896002447165854" type="Touch">
                     <param id="0" name="Object">Action5</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="1542278008705727" type="Action5">
+                    <param id="0" name="Instance variable">Usable</param>
                 </condition>
             </conditions>
             <actions>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CombatHouseKeeper</name>
+    <events>
+        <event-block sid="5930183318059725">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8248693796296169" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="8250648452354118" type="HeroSelected">
+                    <param id="0" name="Text">&quot;Hero Selected: &quot; &amp; HeroSelected</param>
+                </action>
+                <action id="0" name="Set text" sid="6490535358945396" type="ActionSelected">
+                    <param id="0" name="Text">&quot;Action Selected: &quot; &amp; ActionSelected</param>
+                </action>
+                <action id="0" name="Set text" sid="5146097084979906" type="EnemySelected">
+                    <param id="0" name="Text">&quot;Enemy Selected: &quot; &amp; EnemySelected</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -11,7 +11,11 @@
                     <param id="0" name="Name">&quot;CombatCalc&quot;</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="1" name="Append text" sid="64950041212957" type="Debug">
+                    <param id="0" name="Text">&quot;Combat Calc&quot;</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="8269827904697216">
                     <conditions>
@@ -27,6 +31,9 @@
                         <action id="-10" name="Set value" sid="5493064592528969" type="EnemyFamily">
                             <param id="0" name="Instance variable">HP</param>
                             <param id="1" name="Value">TempEnemyHP</param>
+                        </action>
+                        <action id="1" name="Append text" sid="5160567780896101" type="Debug">
+                            <param id="0" name="Text">EnemyFamily.HP</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -53,7 +60,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2032599526454841" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2032599526454841" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">0</param>
                                             <param id="2" name="Value">0</param>
@@ -73,7 +80,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="3633464223500408" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3633464223500408" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">0</param>
                                             <param id="2" name="Value">0</param>
@@ -93,7 +100,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="8085834979835592" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="8085834979835592" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">0</param>
                                             <param id="2" name="Value">0</param>
@@ -125,7 +132,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="7590695569522371" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7590695569522371" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">1</param>
                                             <param id="2" name="Value">0</param>
@@ -145,7 +152,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2789673482841172" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2789673482841172" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">1</param>
                                             <param id="2" name="Value">0</param>
@@ -165,7 +172,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2716136710358739" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2716136710358739" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">1</param>
                                             <param id="2" name="Value">0</param>
@@ -197,7 +204,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="3921355454226741" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3921355454226741" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">2</param>
                                             <param id="2" name="Value">0</param>
@@ -217,7 +224,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="8303677233322221" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="8303677233322221" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">2</param>
                                             <param id="2" name="Value">0</param>
@@ -237,7 +244,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="1214516218000268" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="1214516218000268" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">2</param>
                                             <param id="2" name="Value">0</param>
@@ -269,7 +276,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="7371871549959521" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7371871549959521" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">3</param>
                                             <param id="2" name="Value">0</param>
@@ -289,7 +296,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2803470825090068" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2803470825090068" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">3</param>
                                             <param id="2" name="Value">0</param>
@@ -309,7 +316,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2265409812221018" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2265409812221018" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">3</param>
                                             <param id="2" name="Value">0</param>
@@ -341,7 +348,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="3965369377322861" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3965369377322861" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">4</param>
                                             <param id="2" name="Value">0</param>
@@ -361,7 +368,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="8684116853419993" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="8684116853419993" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">4</param>
                                             <param id="2" name="Value">0</param>
@@ -377,7 +384,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="5949307132728805" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="5949307132728805" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">4</param>
                                             <param id="2" name="Value">0</param>
@@ -425,7 +432,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="3321927222783788" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3321927222783788" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">4</param>
                                             <param id="2" name="Value">0</param>
@@ -489,7 +496,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="818401779843774" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="818401779843774" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">5</param>
                                             <param id="2" name="Value">0</param>
@@ -509,7 +516,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="155732115812115" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="155732115812115" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">5</param>
                                             <param id="2" name="Value">0</param>
@@ -525,7 +532,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="7775445974075186" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7775445974075186" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">5</param>
                                             <param id="2" name="Value">0</param>
@@ -573,7 +580,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="2738968420304499" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2738968420304499" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">5</param>
                                             <param id="2" name="Value">0</param>
@@ -637,7 +644,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="7932828010927207" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7932828010927207" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">6</param>
                                             <param id="2" name="Value">0</param>
@@ -657,7 +664,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="914591305661049" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="914591305661049" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">6</param>
                                             <param id="2" name="Value">0</param>
@@ -673,7 +680,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="9880554957732822" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="9880554957732822" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">6</param>
                                             <param id="2" name="Value">0</param>
@@ -721,7 +728,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="3527627809462436" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3527627809462436" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">6</param>
                                             <param id="2" name="Value">0</param>
@@ -785,7 +792,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="6006103383367325" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="6006103383367325" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">7</param>
                                             <param id="2" name="Value">0</param>
@@ -805,7 +812,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="7647658382551491" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7647658382551491" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">7</param>
                                             <param id="2" name="Value">0</param>
@@ -821,7 +828,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="6304723964269552" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="6304723964269552" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">7</param>
                                             <param id="2" name="Value">0</param>
@@ -869,7 +876,7 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="3" name="Set at XY" sid="1371096030637903" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="1371096030637903" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">7</param>
                                             <param id="2" name="Value">0</param>
@@ -933,7 +940,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2921542586260731" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2921542586260731" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">8</param>
                                             <param id="2" name="Value">0</param>
@@ -953,7 +960,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2694763543717664" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2694763543717664" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">8</param>
                                             <param id="2" name="Value">0</param>
@@ -973,7 +980,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="4438947070341531" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="4438947070341531" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">8</param>
                                             <param id="2" name="Value">0</param>
@@ -993,7 +1000,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="4204503106613821" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="4204503106613821" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">8</param>
                                             <param id="2" name="Value">0</param>
@@ -1029,7 +1036,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="8512350004330691" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="8512350004330691" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">9</param>
                                             <param id="2" name="Value">0</param>
@@ -1049,7 +1056,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="8848729103651776" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="8848729103651776" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">9</param>
                                             <param id="2" name="Value">0</param>
@@ -1069,7 +1076,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="3135837728698537" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3135837728698537" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">9</param>
                                             <param id="2" name="Value">0</param>
@@ -1089,7 +1096,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="2476860400316116" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="2476860400316116" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">9</param>
                                             <param id="2" name="Value">0</param>
@@ -1125,7 +1132,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="7903205134073618" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="7903205134073618" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">10</param>
                                             <param id="2" name="Value">0</param>
@@ -1145,7 +1152,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="9470644013097154" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="9470644013097154" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">10</param>
                                             <param id="2" name="Value">0</param>
@@ -1165,7 +1172,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="185517506889988" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="185517506889988" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">10</param>
                                             <param id="2" name="Value">0</param>
@@ -1185,7 +1192,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="3030903494428988" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="3030903494428988" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">10</param>
                                             <param id="2" name="Value">0</param>
@@ -1221,7 +1228,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="433187646200054" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="433187646200054" type="PlayerState">
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">11</param>
                                             <param id="2" name="Value">0</param>
@@ -1241,7 +1248,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="1973853785753468" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="1973853785753468" type="PlayerState">
                                             <param id="0" name="X">2</param>
                                             <param id="1" name="Y">11</param>
                                             <param id="2" name="Value">0</param>
@@ -1261,7 +1268,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="9411603488939579" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="9411603488939579" type="PlayerState">
                                             <param id="0" name="X">3</param>
                                             <param id="1" name="Y">11</param>
                                             <param id="2" name="Value">0</param>
@@ -1281,7 +1288,7 @@
                                             <param id="0" name="Instance variable">HP</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="3" name="Set at XY" sid="4957278494872803" type="ActiveHeros">
+                                        <action id="3" name="Set at XY" sid="4957278494872803" type="PlayerState">
                                             <param id="0" name="X">4</param>
                                             <param id="1" name="Y">11</param>
                                             <param id="2" name="Value">0</param>

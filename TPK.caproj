@@ -144,7 +144,6 @@
             <object-type name="Action3" sid="4492307565251342">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Name" sid="2691793671151858" type="string" />
                     <instance-variable name="Usable" sid="7118314345713102" type="boolean" />
                     <instance-variable name="ActionNumber" sid="4839789373384287" type="number" />
                 </instance-variables>
@@ -161,7 +160,6 @@
             <object-type name="Action5" sid="7359559650409952">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Name" sid="1643875407454437" type="string" />
                     <instance-variable name="Usable" sid="3219506928248111" type="boolean" />
                     <instance-variable name="ActionNumber" sid="1696242897047771" type="number" />
                 </instance-variables>
@@ -176,7 +174,6 @@
             <object-type name="Action4" sid="8326751795763756">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Name" sid="8702136520493286" type="string" />
                     <instance-variable name="Usable" sid="7961404613668039" type="boolean" />
                     <instance-variable name="ActionNumber" sid="8442706648975108" type="number" />
                 </instance-variables>
@@ -193,7 +190,6 @@
             <object-type name="Action1" sid="6477553707789005">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Name" sid="5495588485000443" type="string" />
                     <instance-variable name="Usable" sid="849827094451171" type="boolean" />
                     <instance-variable name="ActionNumber" sid="4266163255012956" type="number" />
                 </instance-variables>
@@ -210,7 +206,6 @@
             <object-type name="Action2" sid="6359589439458419">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable name="Name" sid="4662818833021862" type="string" />
                     <instance-variable name="Usable" sid="6189150128797309" type="boolean" />
                     <instance-variable name="ActionNumber" sid="5038836989645646" type="number" />
                 </instance-variables>
@@ -326,6 +321,15 @@
         <object-type name="Function" sid="7060874954051473">
             <plugin id="Function" />
         </object-type>
+        <object-type name="HeroSelected" sid="6786805269145685">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ActionSelected" sid="6056303532734339">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EnemySelected" sid="4780308966887206">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="HeroFamily" plugin-id="Sprite" sid="263504498170728">
@@ -381,6 +385,7 @@
         <event-sheet>CombatActionSelect.xml</event-sheet>
         <event-sheet>CombatEnemySelect.xml</event-sheet>
         <event-sheet>CombatCalc.xml</event-sheet>
+        <event-sheet>CombatHouseKeeper.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="18">

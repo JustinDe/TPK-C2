@@ -171,6 +171,11 @@
                 <event-block sid="4890024991551278">
                     <conditions />
                     <actions>
+                        <action id="1" name="Set size" sid="1100781905711215" type="PlayerState">
+                            <param id="0" name="Width">7</param>
+                            <param id="1" name="Height">12</param>
+                            <param id="2" name="Depth">1</param>
+                        </action>
                         <action id="3" name="Set at XY" sid="4700321295236934" type="PlayerState">
                             <param id="0" name="X">0</param>
                             <param id="1" name="Y">0</param>
