@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CombatEnemySelect</name>
+    <events>
+        <variable constant="0" name="EnemySelected" sid="5777538140482206" static="0" type="number">0</variable>
+        <event-block sid="3230964396685074">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4594540961193282" type="Touch">
+                    <param id="0" name="Object">GuardNormal1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7767695124046526" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardNormal1.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="7737849656734501" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2661503358334006" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="6296532599731215" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3821249874617065">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7293555972513288" type="Touch">
+                    <param id="0" name="Object">GuardNormal2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3885617876587629" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardNormal2.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="2731015235891574" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="9234602629358995" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="0" name="Call function" sid="2798096969385802" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6047639452060766">
+            <conditions>
+                <condition id="17" name="On tap object" sid="9750926252899738" type="Touch">
+                    <param id="0" name="Object">GuardNormal3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2513102008065073" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardNormal3.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="6907138738811945" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="9080089567081707" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="0" name="Call function" sid="5861916114313279" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5971984811802414">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4970405108026267" type="Touch">
+                    <param id="0" name="Object">GuardFire1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="495620278309553" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardFire1.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="261099906353318" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Fire&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="5492647904208154" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="164409866023098" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9338097364866694">
+            <conditions>
+                <condition id="17" name="On tap object" sid="3213797703004106" type="Touch">
+                    <param id="0" name="Object">GuardFire2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1362551193176781" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardFire2.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="1043994408027593" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Fire&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1677759987387834" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="0" name="Call function" sid="3034579438045936" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8826405359698128">
+            <conditions>
+                <condition id="17" name="On tap object" sid="2936560837792413" type="Touch">
+                    <param id="0" name="Object">GuardFire3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="2604253038841646" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardFire3.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="9395120584892914" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Fire&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="6667268325128221" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="0" name="Call function" sid="8664721227319494" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3292086059732233">
+            <conditions>
+                <condition id="17" name="On tap object" sid="9084169366707681" type="Touch">
+                    <param id="0" name="Object">GuardIce1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6271565429542895" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardIce1.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="8996758623869191" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Ice&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="6287135293864771" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="8934181774469906" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4669416867284565">
+            <conditions>
+                <condition id="17" name="On tap object" sid="2660498036284126" type="Touch">
+                    <param id="0" name="Object">GuardIce2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7797919291129204" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardIce2.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="7429154729875024" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Ice&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="1226041147972422" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="0" name="Call function" sid="2371529764961152" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5206571758170299">
+            <conditions>
+                <condition id="17" name="On tap object" sid="9641953650813773" type="Touch">
+                    <param id="0" name="Object">GuardIce3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7840885945278075" type="System">
+                    <param id="0" name="Variable">EnemySelected</param>
+                    <param id="1" name="Value">GuardIce3.UID</param>
+                </action>
+                <action id="-9" name="Set value" sid="2033008932053405" type="System">
+                    <param id="0" name="Variable">TempEnemyElement</param>
+                    <param id="1" name="Value">&quot;Ice&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="2483699698204384" type="System">
+                    <param id="0" name="Variable">TempEnemyHP</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="0" name="Call function" sid="8612885389600469" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

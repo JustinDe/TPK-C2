@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CombatStartUp</name>
+    <events>
+        <event-block sid="6685541815750055">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8925699487045869" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set at X" sid="5738790013686173" type="ActiveHeros">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">Rekka.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="5362345591343577" type="ActiveHeros">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">Zyra.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="8103535479286408" type="ActiveHeros">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">Luna.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="6688637618168646" type="ActiveHeros">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">Jarzoka.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="7168029268270535" type="ActiveHeros">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">Vho.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="6676496645985283" type="ActiveEnemies">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">GuardNormal1.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="8951052577839202" type="ActiveEnemies">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">GuardNormal2.UID</param>
+                </action>
+                <action id="2" name="Set at X" sid="8547425426693948" type="ActiveEnemies">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">GuardNormal3.UID</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8875675975080928">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6043366839308861" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="109155541655039" type="Action1">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="5" name="Set frame" sid="4793655173874555" type="Action2">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="5" name="Set frame" sid="2713549524570645" type="Action3">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="5" name="Set frame" sid="2797558392639733" type="Action4">
+                    <param id="0" name="Frame number">4</param>
+                </action>
+                <action id="5" name="Set frame" sid="9021750091475395" type="Action5">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7559192165712078">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="7570184283068293" type="HeroFamily">
+                            <param id="0" name="Unique ID">ActiveHeros.At(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="365716059569222" type="HeroFamily">
+                            <param id="0" name="X">640</param>
+                            <param id="1" name="Y">620</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1114326678465244">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="9780136238761175" type="HeroFamily">
+                            <param id="0" name="Unique ID">ActiveHeros.At(1)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="8853825840270468" type="HeroFamily">
+                            <param id="0" name="X">470</param>
+                            <param id="1" name="Y">620</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7541317175093767">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="2497220399728178" type="HeroFamily">
+                            <param id="0" name="Unique ID">ActiveHeros.At(2)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="4444142939871725" type="HeroFamily">
+                            <param id="0" name="X">810</param>
+                            <param id="1" name="Y">620</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3484661414975665">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="6487371164937115" type="HeroFamily">
+                            <param id="0" name="Unique ID">ActiveHeros.At(3)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="3357955590950814" type="HeroFamily">
+                            <param id="0" name="X">300</param>
+                            <param id="1" name="Y">620</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="20735004879775">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="6635223427354248" type="HeroFamily">
+                            <param id="0" name="Unique ID">ActiveHeros.At(4)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="4097981440329477" type="HeroFamily">
+                            <param id="0" name="X">980</param>
+                            <param id="1" name="Y">620</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1391483953461692">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="3650098939649466" type="EnemyFamily">
+                            <param id="0" name="Unique ID">ActiveEnemies.At(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="682044856649837" type="EnemyFamily">
+                            <param id="0" name="X">640</param>
+                            <param id="1" name="Y">105</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4488078717015691">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="231667032975734" type="EnemyFamily">
+                            <param id="0" name="Unique ID">ActiveEnemies.At(1)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5215976081915261" type="EnemyFamily">
+                            <param id="0" name="X">450</param>
+                            <param id="1" name="Y">105</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6917074180590645">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="485328859182652" type="EnemyFamily">
+                            <param id="0" name="Unique ID">ActiveEnemies.At(2)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="5272901260020132" type="EnemyFamily">
+                            <param id="0" name="X">830</param>
+                            <param id="1" name="Y">105</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4890024991551278">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="4700321295236934" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5892692152549724" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="2836849419506423" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1402604074156634" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="8186370753102189" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7908368198381248" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="2688783217684037" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Value">Rekka.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8586786510039704">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="6105885509757613" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="9698425242164538" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7426484496782369" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1496793779071691" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5737771161349802" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5823848138129515" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5388745385340528" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">Jarzoka.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8895351559967841">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="3881212405287407" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7142656992177084" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1030046182205051" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="8900666263338052" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="83910043774745" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="2424952869626564" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="2209888992678337" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">2</param>
+                            <param id="2" name="Value">Lizen.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9566394461169582">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="3481218929385138" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="8678747873278163" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="319154269786587" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5222937518719545" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4802164345180081" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7077741265193119" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3414927037941971" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">3</param>
+                            <param id="2" name="Value">MadWolf.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9331717085772198">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="5517228956039116" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="574314754411268" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3446570012373835" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="9226823923548687" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5184237991314536" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4585121057926308" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1911177725697996" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">4</param>
+                            <param id="2" name="Value">Ashkel.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7315212525487289">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="3658403558416275" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1345460783528618" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4056830424685714" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5912498014501838" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="6329013463682346" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3867968584269603" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1000063070951346" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">5</param>
+                            <param id="2" name="Value">Luna.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7760897506389114">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="4281084848217946" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="842150613174175" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7067154091643663" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="952214841134742" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="873912203514604" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="506501892098193" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4345059631862904" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">6</param>
+                            <param id="2" name="Value">Zyra.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4341745478216226">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="370816994451666" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4504864768204593" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="9268939258082028" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="251468726769916" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1462257449992005" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="9454377222840621" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="7909100495449155" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">7</param>
+                            <param id="2" name="Value">Hans.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1343809732629439">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="3090073396518648" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3697001249654945" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5557470504504187" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5663162993457731" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="2559070829679461" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="6746978013117167" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4283019376292522" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">8</param>
+                            <param id="2" name="Value">Marle.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7691220563351222">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="1032170677242178" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="104496030703032" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4910096184909599" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="6344020344575592" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="8353362110442008" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5268056133745622" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5861275935028468" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">9</param>
+                            <param id="2" name="Value">Vinsomen.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6446112496780753">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="2476228555821747" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1534430040797623" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1062169974625027" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="6904862841015092" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="8222696757909486" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3105519724890984" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="3764251915818649" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">10</param>
+                            <param id="2" name="Value">Yarko.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4189833197809188">
+                    <conditions />
+                    <actions>
+                        <action id="3" name="Set at XY" sid="8696725884283393" type="PlayerState">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">5</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5074946732281191" type="PlayerState">
+                            <param id="0" name="X">1</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="412507419806586" type="PlayerState">
+                            <param id="0" name="X">2</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="4710587836055714" type="PlayerState">
+                            <param id="0" name="X">3</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1947330838729894" type="PlayerState">
+                            <param id="0" name="X">4</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="1515678999967354" type="PlayerState">
+                            <param id="0" name="X">5</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set at XY" sid="5099394298715089" type="PlayerState">
+                            <param id="0" name="X">6</param>
+                            <param id="1" name="Y">11</param>
+                            <param id="2" name="Value">Vho.UID</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

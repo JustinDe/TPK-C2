@@ -10,8 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Layout 1</layout>
-        <event-sheet order="2">Event sheet 1</event-sheet>
+        <layout order="1">Combat</layout>
+        <event-sheet order="2">MasterSheet</event-sheet>
+        <event-sheet order="3">CombatStartUp</event-sheet>
+        <event-sheet order="4">CombatHeroSelect</event-sheet>
+        <event-sheet order="5">CombatActionSelect</event-sheet>
+        <event-sheet order="6">CombatEnemySelect</event-sheet>
+        <event-sheet active="1" order="7">CombatCalc</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -19,31 +24,47 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="1" />
+    <families-expanded root="0">
+        <family expanded="0" name="HeroFamily" />
+        <family expanded="0" name="EnemyFamily" />
+        <family expanded="0" name="ActionFamily" />
+    </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="layout-folder/" />
-        <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="object-folder/Heros/" />
+        <folder expanded="0" path="object-folder/Actions/" />
+        <folder expanded="0" path="object-folder/Enemies/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/Zyra/" />
-        <folder expanded="1" path="animation-folder/Rekka/" />
         <folder expanded="1" path="animation-folder/Jarzoka/" />
-        <folder expanded="1" path="animation-folder/Lizen/" />
         <folder expanded="1" path="animation-folder/Ashkel/" />
+        <folder expanded="1" path="animation-folder/Lizen/" />
         <folder expanded="1" path="animation-folder/Luna/" />
+        <folder expanded="1" path="animation-folder/Rekka/" />
+        <folder expanded="1" path="animation-folder/Zyra/" />
         <folder expanded="1" path="animation-folder/Vho/" />
-        <folder expanded="1" path="animation-folder/RekkaStrike1/" />
-        <folder expanded="1" path="animation-folder/RekkaStrike2/" />
-        <folder expanded="1" path="animation-folder/RekkaCleave/" />
-        <folder expanded="1" path="animation-folder/RekkaShieldBash/" />
-        <folder expanded="1" path="animation-folder/RekkaFlee/" />
-        <folder expanded="1" path="animation-folder/MadWolf/" />
         <folder expanded="1" path="animation-folder/Hans/" />
+        <folder expanded="1" path="animation-folder/MadWolf/" />
         <folder expanded="1" path="animation-folder/Marle/" />
         <folder expanded="1" path="animation-folder/Vinsomen/" />
         <folder expanded="1" path="animation-folder/Yarko/" />
+        <folder expanded="1" path="animation-folder/Action3/" />
+        <folder expanded="1" path="animation-folder/Action5/" />
+        <folder expanded="1" path="animation-folder/Action4/" />
+        <folder expanded="1" path="animation-folder/Action1/" />
+        <folder expanded="1" path="animation-folder/Action2/" />
+        <folder expanded="1" path="animation-folder/GuardFire1/" />
+        <folder expanded="1" path="animation-folder/GuardFire2/" />
+        <folder expanded="1" path="animation-folder/GuardFire3/" />
+        <folder expanded="1" path="animation-folder/GuardIce1/" />
+        <folder expanded="1" path="animation-folder/GuardIce2/" />
+        <folder expanded="1" path="animation-folder/GuardIce3/" />
+        <folder expanded="1" path="animation-folder/GuardNormal1/" />
+        <folder expanded="1" path="animation-folder/GuardNormal2/" />
+        <folder expanded="1" path="animation-folder/GuardNormal3/" />
     </folders-expanded>
 </c2uistate>

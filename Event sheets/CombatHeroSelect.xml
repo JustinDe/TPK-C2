@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CombatHeroSelect</name>
+    <events>
+        <variable constant="0" name="HeroSelected" sid="2968927904770242" static="0" type="number">0</variable>
+        <event-block sid="6664098365145373">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4790909844814805" type="Touch">
+                    <param id="0" name="Object">Rekka</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="3110949539349378" type="ActiveHeros">
+                    <param id="0" name="Value">Rekka.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1605322726846849" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Rekka.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="9121399106069452" type="Action1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7333538210828379" type="Action2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="1008197506978828" type="Action3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9178508388752115" type="Action4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7841159487926701" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5160747009518346">
+            <conditions>
+                <condition id="17" name="On tap object" sid="6246605139365584" type="Touch">
+                    <param id="0" name="Object">Jarzoka</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="1741838049192379" type="ActiveHeros">
+                    <param id="0" name="Value">Jarzoka.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9972298643466419" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Jarzoka.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="8870717776885824" type="Action1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7397100382860147" type="Action2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="6922176493716903" type="Action3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9503999309742379" type="Action4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="2147626572614549" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5338727554501107">
+            <conditions>
+                <condition id="17" name="On tap object" sid="2301243122487011" type="Touch">
+                    <param id="0" name="Object">Lizen</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="4638714306152275" type="ActiveHeros">
+                    <param id="0" name="Value">Lizen.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1264233960536679" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Lizen.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="7556369459399601" type="Action1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7027577621341586" type="Action2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="6218004955618086" type="Action3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="3739826740161885" type="Action4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9461749540718638" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158933703686534">
+            <conditions>
+                <condition id="17" name="On tap object" sid="5195191451964938" type="Touch">
+                    <param id="0" name="Object">MadWolf</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="7810928403111493" type="ActiveHeros">
+                    <param id="0" name="Value">MadWolf.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="1634917420778367" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">MadWolf.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="5529837482591931" type="Action1">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="7963236514398219" type="Action2">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9199841271931549" type="Action3">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="9558568252841853" type="Action4">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="2687777220337506" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1857354438458958">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4915028565052089" type="Touch">
+                    <param id="0" name="Object">Ashkel</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="9050451135113009" type="ActiveHeros">
+                    <param id="0" name="Value">Ashkel.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8494236686030272" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Ashkel.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="586392337246369" type="Action1">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="5706977751177125" type="Action2">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="8271084913726285" type="Action3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="8499822176793723" type="Action4">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="8377668709703509" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4052454293294607">
+            <conditions>
+                <condition id="17" name="On tap object" sid="297436370817461" type="Touch">
+                    <param id="0" name="Object">Luna</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="4467467603588433" type="ActiveHeros">
+                    <param id="0" name="Value">Luna.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9183483971339501" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Luna.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="7014174741871872" type="Action1">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="7476048566215516" type="Action2">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="121100807949188" type="Action3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="2641047302484791" type="Action4">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="3362205695265176" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9667916630609879">
+            <conditions>
+                <condition id="17" name="On tap object" sid="4719651181584576" type="Touch">
+                    <param id="0" name="Object">Zyra</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="6537477594427429" type="ActiveHeros">
+                    <param id="0" name="Value">Zyra.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7201287296912905" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Zyra.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="9021833477759892" type="Action1">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="8530161782652417" type="Action2">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="6979972395510859" type="Action3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="2132320443964889" type="Action4">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="6124327930315035" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3883435685861629">
+            <conditions>
+                <condition id="17" name="On tap object" sid="7625214032704385" type="Touch">
+                    <param id="0" name="Object">Hans</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="8966077423999617" type="ActiveHeros">
+                    <param id="0" name="Value">Hans.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="9984411093286761" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Hans.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="221927806812451" type="Action1">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="4301267620222226" type="Action2">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="2958318576381645" type="Action3">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="162285431196908" type="Action4">
+                    <param id="0" name="Frame number">2</param>
+                </action>
+                <action id="5" name="Set frame" sid="7833238873178794" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7569150279964634">
+            <conditions>
+                <condition id="17" name="On tap object" sid="8655256444192662" type="Touch">
+                    <param id="0" name="Object">Marle</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="3203862136828779" type="ActiveHeros">
+                    <param id="0" name="Value">Marle.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4001866364109285" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Marle.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="2065587517084119" type="Action1">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="2590840222155944" type="Action2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="1897601033223787" type="Action3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="5849737623300216" type="Action4">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="2845079018476038" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="699212058580705">
+            <conditions>
+                <condition id="17" name="On tap object" sid="1638154686136633" type="Touch">
+                    <param id="0" name="Object">Vinsomen</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="4638195397685703" type="ActiveHeros">
+                    <param id="0" name="Value">Vinsomen.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5127338802684322" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Vinsomen.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="3502473699518851" type="Action1">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="9134220592749135" type="Action2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="5651160299174423" type="Action3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="735274091851806" type="Action4">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="2154733864949771" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9699090752855888">
+            <conditions>
+                <condition id="17" name="On tap object" sid="1422080410571082" type="Touch">
+                    <param id="0" name="Object">Yarko</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="7626376997776555" type="ActiveHeros">
+                    <param id="0" name="Value">Yarko.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4788101021930576" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Yarko.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="9284711401443166" type="Action1">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="3643586420535879" type="Action2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="7415875813146729" type="Action3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="7158546686352669" type="Action4">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="1469158502406168" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8623970079634964">
+            <conditions>
+                <condition id="17" name="On tap object" sid="8580083482894671" type="Touch">
+                    <param id="0" name="Object">Vho</param>
+                </condition>
+                <condition id="5" name="Contains value" sid="5446136142907352" type="ActiveHeros">
+                    <param id="0" name="Value">Vho.UID</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="4306763117451698" type="System">
+                    <param id="0" name="Variable">HeroSelected</param>
+                    <param id="1" name="Value">Vho.UID</param>
+                </action>
+                <action id="5" name="Set frame" sid="1100352039986537" type="Action1">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="7293963432016641" type="Action2">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="5640477393039492" type="Action3">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="9894046164249966" type="Action4">
+                    <param id="0" name="Frame number">3</param>
+                </action>
+                <action id="5" name="Set frame" sid="2323488956169866" type="Action5">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

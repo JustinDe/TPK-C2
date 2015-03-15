@@ -10,8 +10,11 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -39,179 +42,354 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Zyra" sid="1860816384280246">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9441669284619683" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\thief.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Rekka" sid="9030874730691802">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7535919629071439" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter3.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Jarzoka" sid="1480949791596519">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7113411647610313" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter2.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Lizen" sid="6486641849877276">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505320170287154" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Ashkel" sid="7899576022025719">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1322073548836598" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage1.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Luna" sid="5415480533085212">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1906291676182395" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage2.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Vho" sid="3104599204646801">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9352979248257084" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage3.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="RekkaStrike1" sid="6477553707789005">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="5495588485000443" type="string" />
-                <instance-variable name="Usable" sid="849827094451171" type="boolean" />
-                <instance-variable name="ActionNumber" sid="4266163255012956" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4996264749476507" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="RekkaStrike2" sid="6359589439458419">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="4662818833021862" type="string" />
-                <instance-variable name="Usable" sid="6189150128797309" type="boolean" />
-                <instance-variable name="ActionNumber" sid="5038836989645646" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8382273423414645" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="RekkaCleave" sid="4492307565251342">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="2691793671151858" type="string" />
-                <instance-variable name="Usable" sid="7118314345713102" type="boolean" />
-                <instance-variable name="ActionNumber" sid="4839789373384287" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4089866952942022" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\cleave.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="RekkaShieldBash" sid="8326751795763756">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="8702136520493286" type="string" />
-                <instance-variable name="Usable" sid="7961404613668039" type="boolean" />
-                <instance-variable name="ActionNumber" sid="8442706648975108" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4524756625600025" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\shieldbash.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="RekkaFlee" sid="7359559650409952">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Name" sid="1643875407454437" type="string" />
-                <instance-variable name="Usable" sid="3219506928248111" type="boolean" />
-                <instance-variable name="ActionNumber" sid="1696242897047771" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1825551908450689" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\run.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
+        <object-folder name="Heros">
+            <object-type name="Jarzoka" sid="1480949791596519">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7113411647610313" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Ashkel" sid="7899576022025719">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1322073548836598" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Lizen" sid="6486641849877276">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="505320170287154" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Luna" sid="5415480533085212">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1906291676182395" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Rekka" sid="9030874730691802">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7535919629071439" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter3.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Zyra" sid="3104599204646801">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9352979248257084" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mage3.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Vho" sid="1860816384280246">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9441669284619683" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\thief.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Hans" sid="8621874685784138">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666982012033692" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MadWolf" sid="352948392864873">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388477952140886" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Marle" sid="1018693047194874">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4692791563911939" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Vinsomen" sid="7526457920678805">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8100027516328145" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Yarko" sid="9030898333112528">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116354829520254" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Actions">
+            <object-type name="Action3" sid="4492307565251342">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Name" sid="2691793671151858" type="string" />
+                    <instance-variable name="Usable" sid="7118314345713102" type="boolean" />
+                    <instance-variable name="ActionNumber" sid="4839789373384287" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="ActionSwitch" pingpong="0" repeatcount="1" repeatto="0" sid="4089866952942022" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\cleave.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fire.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\poison.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Action5" sid="7359559650409952">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Name" sid="1643875407454437" type="string" />
+                    <instance-variable name="Usable" sid="3219506928248111" type="boolean" />
+                    <instance-variable name="ActionNumber" sid="1696242897047771" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="ActionSwitch" pingpong="0" repeatcount="1" repeatto="0" sid="1825551908450689" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\run.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Action4" sid="8326751795763756">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Name" sid="8702136520493286" type="string" />
+                    <instance-variable name="Usable" sid="7961404613668039" type="boolean" />
+                    <instance-variable name="ActionNumber" sid="8442706648975108" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="ActionSwitch" pingpong="0" repeatcount="1" repeatto="0" sid="4524756625600025" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\shieldbash.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\snowflake-2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\mug.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Action1" sid="6477553707789005">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Name" sid="5495588485000443" type="string" />
+                    <instance-variable name="Usable" sid="849827094451171" type="boolean" />
+                    <instance-variable name="ActionNumber" sid="4266163255012956" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="ActionSwitch" pingpong="0" repeatcount="1" repeatto="0" sid="170435566217628" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\winged-arrow.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\plain-dagger.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Action2" sid="6359589439458419">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Name" sid="4662818833021862" type="string" />
+                    <instance-variable name="Usable" sid="6189150128797309" type="boolean" />
+                    <instance-variable name="ActionNumber" sid="5038836989645646" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="5" loop="0" name="ActionSwitch" pingpong="0" repeatcount="1" repeatto="0" sid="7201991011378553" speed="0">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strike.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\winged-arrow.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\plain-dagger.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\plain-dagger.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Enemies">
+            <object-type name="GuardFire1" sid="6831210695806847">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7666904855971558" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\guardTest.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardFire2" sid="191151850162065">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2834522359918073" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\normalred.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardFire3" sid="2212366906201509">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3876421123362702" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strongred.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardIce1" sid="7664547506966124">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4518894665657093" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\weakblue.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardIce2" sid="1019726523664432">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8496499038116555" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\normalblue.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardIce3" sid="5063689752673718">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2250648663330576" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strongblue.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardNormal1" sid="6550548877744497">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9682832346896234" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\weakyellow.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardNormal2" sid="320150492960903">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7651506000390447" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\noramlyellow.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GuardNormal3" sid="3850030387034122">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4036939533328186" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\strongyellow.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Debug" sid="4498326727862694">
             <plugin id="Text" />
         </object-type>
-        <object-type name="MadWolf" sid="352948392864873">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="388477952140886" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type name="Touch" sid="6787442846696446">
+            <plugin id="Touch" />
         </object-type>
-        <object-type name="Hans" sid="8621874685784138">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666982012033692" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type global="1" name="ActiveHeros" sid="3945748887182337">
+            <plugin id="Arr" />
         </object-type>
-        <object-type name="Marle" sid="1018693047194874">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4692791563911939" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type global="1" name="ActiveEnemies" sid="737359875865221">
+            <plugin id="Arr" />
         </object-type>
-        <object-type name="Vinsomen" sid="7526457920678805">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8100027516328145" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type global="1" name="PlayerState" sid="513480211747955">
+            <plugin id="Arr" />
         </object-type>
-        <object-type name="Yarko" sid="9030898333112528">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="116354829520254" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Justin\Documents\Dev\TPK_construct2\Files\GameIcons\fighter1.jpg" />
-                </animation>
-            </animation-folder>
+        <object-type name="E1HP" sid="5537121816246721">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="E3HP" sid="7775309131039588">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="E2HP" sid="1043394603395269">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Function" sid="7060874954051473">
+            <plugin id="Function" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="HeroFamily" plugin-id="Sprite" sid="263504498170728">
+            <members>
+                <member>Ashkel</member>
+                <member>Hans</member>
+                <member>Jarzoka</member>
+                <member>Lizen</member>
+                <member>Luna</member>
+                <member>MadWolf</member>
+                <member>Marle</member>
+                <member>Rekka</member>
+                <member>Vho</member>
+                <member>Vinsomen</member>
+                <member>Yarko</member>
+                <member>Zyra</member>
+            </members>
+        </family>
+        <family name="EnemyFamily" plugin-id="Sprite" sid="8029065830407763">
+            <members>
+                <member>GuardFire1</member>
+                <member>GuardFire2</member>
+                <member>GuardFire3</member>
+                <member>GuardIce1</member>
+                <member>GuardIce2</member>
+                <member>GuardIce3</member>
+                <member>GuardNormal1</member>
+                <member>GuardNormal2</member>
+                <member>GuardNormal3</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Element" sid="4165658110253425" type="string" />
+                <instance-variable name="HP" sid="7077992186162" type="number" />
+            </instance-variables>
+        </family>
+        <family name="ActionFamily" plugin-id="Sprite" sid="5206763259775393">
+            <members>
+                <member>Action1</member>
+                <member>Action2</member>
+                <member>Action3</member>
+                <member>Action4</member>
+                <member>Action5</member>
+            </members>
+        </family>
+    </families>
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>Combat.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>MasterSheet.xml</event-sheet>
+        <event-sheet>CombatStartUp.xml</event-sheet>
+        <event-sheet>CombatHeroSelect.xml</event-sheet>
+        <event-sheet>CombatActionSelect.xml</event-sheet>
+        <event-sheet>CombatEnemySelect.xml</event-sheet>
+        <event-sheet>CombatCalc.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Touch" uid="18">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="32" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>

@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CombatCalc</name>
+    <events>
+        <variable constant="0" name="TempEnemyHP" sid="7841181828112273" static="0" type="number">0</variable>
+        <variable constant="0" name="TempEnemyElement" sid="1587251157806532" static="0" type="text"></variable>
+        <event-block sid="5353189335242538">
+            <conditions>
+                <condition id="0" name="On function" sid="1540261361025216" type="Function">
+                    <param id="0" name="Name">&quot;CombatCalc&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="8269827904697216">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="4054982008681133" type="EnemyFamily">
+                            <param id="0" name="Unique ID">EnemySelected</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="6822003488342208" type="EnemyFamily">
+                            <param id="0" name="Instance variable">Element</param>
+                            <param id="1" name="Value">TempEnemyElement</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5493064592528969" type="EnemyFamily">
+                            <param id="0" name="Instance variable">HP</param>
+                            <param id="1" name="Value">TempEnemyHP</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5849236272116083">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4022683131986148" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Rekka.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3011951353487722">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5813807677858179" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2041327785637016" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2032599526454841" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5208780717947326">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5122447106414287" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="3023423271680125" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="3633464223500408" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5835383345500319">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="4488918894081583" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="6942487253742482" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="8085834979835592" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="5950349774792192">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9035262801455491" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Jarzoka.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1506188597384888">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8638385908014881" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="5529338133607443" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="7590695569522371" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5772895106406986">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6715850331231864" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4606410200192987" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2789673482841172" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6106798617443112">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8011674099402138" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="196276618179776" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2716136710358739" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">1</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6341111490735719">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2690152407594836" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Lizen.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7534062867703836">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="20178850618447" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="3594006370496893" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="3921355454226741" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">2</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="859692551794336">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6959883352215577" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1682108151518368" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="8303677233322221" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">2</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5212674553300032">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1209187277886417" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="5221658737115293" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="1214516218000268" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">2</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4893588461837916">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1679761951560641" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">MadWolf.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6807736992159508">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6600518566914108" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2189761197470208" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="7371871549959521" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1741261802919714">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8490997626631757" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="8543442128856695" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2803470825090068" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7244500581118236">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="4805642427503932" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2227719046829425" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2265409812221018" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">3</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="3570800358918282">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="31290808949771" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Ashkel.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7510424617387232">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6994794897890286" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2297493194796174" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="3965369377322861" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="3625449080518178">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="9926948980826996" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="9684179802333984" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="8684116853419993" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="8241689580871509">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1557752723645013" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="5949307132728805" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="5773542077106152">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="387453783694367" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="1511300247990055" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="6839916105613083">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="953723236087748" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="413909360698437" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="4385496809347237">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5705548845598218" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="3321927222783788" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="1798447550550213">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="7098799165506595" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="7840472575335276" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="1408075645246454">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1553190281152274" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6240798055998752" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="1151969748935083">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5165909804695184" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Luna.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="4166892001018702">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8206352647384922" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4512729651880307" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="818401779843774" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">5</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9452755972769579">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="2212840714076897" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2450901730260562" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="155732115812115" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">5</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7842798242008024">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="3976654641516235" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="7775445974075186" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">5</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="5930025180236925">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="9617344227409845" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="9966325806543492" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="8921123707973855">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5529908570874294" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="5776573296501719" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="3183419543631781">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="828203880885133" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="2738968420304499" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">5</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="7165090212162041">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="3908221164527074" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2557102937317766" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="1660774498422594">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="9615309966987834" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="9169548547671974" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="9166987843908224">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3091291763681867" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Zyra.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="922239834904909">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="4868109079898346" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="5705040954604904" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="7932828010927207" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">6</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4122297946197792">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8747271260523465" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="6441500206659541" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="914591305661049" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">6</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7873554033908155">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5071405910399525" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="9880554957732822" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">6</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="2203232458278628">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="6440571123300724" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="8360550231310643" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="6770503166165265">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5505608491107653" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="8301262085030709" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="5060882755881004">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8298205288641397" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="3527627809462436" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">6</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="9406398008494435">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="6189276835787703" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6721022475581659" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="5069911966237674">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="3593996088601214" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2247708266061628" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="5670990367039939">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="9014399033802196" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Hans.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="7514298282944215">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="3434182054312071" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4026838172633653" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="6006103383367325" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">7</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1817064730284658">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="4899476579471076" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="9608167238155207" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="7647658382551491" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">7</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="2402443219971984">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="7027591898901449" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="6304723964269552" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">7</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="2899990803980621">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="7612368736320511" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2714826983144249" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="5236504427026993">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="6137291635800143" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2009648447847505" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="8663312450678569">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="3130299661295491" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="3" name="Set at XY" sid="1371096030637903" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">7</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                    <sub-events>
+                                        <event-block sid="9705242917867247">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1154015057315527" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="1426426303494" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">2</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="5840720166479463">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="1613076774848063" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;Ice&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2254819816985155" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="9832795830833927">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4169545423907838" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Marle.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6956934850911343">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="8033124134448905" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="6130685204421683" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2921542586260731" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">8</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5078312095211044">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1653297695735017" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="5373505283912517" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2694763543717664" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">8</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6387438547704267">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="2898662821176623" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4860400346956905" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="4438947070341531" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">8</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="953307792253058">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="863764950415123" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4286705593330122" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="4204503106613821" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">8</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="4726613847067432" type="Function">
+                                            <param id="0" name="Name">&quot;GetRandActBack&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="3185202178073398">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7321575858366705" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Vinsomen.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6837005477820167">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="2559643744194646" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1930493663084044" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="8512350004330691" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">9</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="3208423559726924">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1756564193678209" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="2576680055351961" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="8848729103651776" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">9</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="4429231997191311">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="7595958889327253" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="8340291123546197" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="3135837728698537" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">9</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="6391314071210511">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="3383863813406568" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1046571381225862" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="2476860400316116" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">9</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="5042706616131361" type="Function">
+                                            <param id="0" name="Name">&quot;GetRandActBack&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="8309950457479946">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6703950163625186" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Yarko.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="4094669222175426">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5188409165043568" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="4663020135012797" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="7903205134073618" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">10</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9197814908270224">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="4164590151971432" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="3798025577118612" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="9470644013097154" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">10</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9633772477548254">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6198467089906524" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="9159790037137279" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="185517506889988" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">10</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="5615816383362462">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="5613771777144997" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1021714944372359" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="3030903494428988" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">10</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="4954464668649797" type="Function">
+                                            <param id="0" name="Name">&quot;GetRandActBack&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="382345467786109">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="2405547219243812" type="System">
+                                    <param id="0" name="Variable">HeroSelected</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Vho.UID</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="6135539904463478">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6263636013385702" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="1681075771302515" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="433187646200054" type="ActiveHeros">
+                                            <param id="0" name="X">1</param>
+                                            <param id="1" name="Y">11</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="332486150534853">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="6493253780544072" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="5306437072615403" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="1973853785753468" type="ActiveHeros">
+                                            <param id="0" name="X">2</param>
+                                            <param id="1" name="Y">11</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="26823821266281">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="1148754942322314" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="8988138725395571" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">2</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="9411603488939579" type="ActiveHeros">
+                                            <param id="0" name="X">3</param>
+                                            <param id="1" name="Y">11</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="2224243487877139">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="9260480886284021" type="System">
+                                            <param id="0" name="Variable">ActionSelected</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">4</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="8417719266598872" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="3" name="Set at XY" sid="4957278494872803" type="ActiveHeros">
+                                            <param id="0" name="X">4</param>
+                                            <param id="1" name="Y">11</param>
+                                            <param id="2" name="Value">0</param>
+                                        </action>
+                                        <action id="0" name="Call function" sid="3786208793858525" type="Function">
+                                            <param id="0" name="Name">&quot;GetRandActBack&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
