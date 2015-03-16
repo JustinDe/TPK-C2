@@ -655,5 +655,190 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="6747625657430231">
+            <conditions />
+            <actions>
+                <action id="1" name="Set size" sid="7511610938504637" type="EnemyState">
+                    <param id="0" name="Width">3</param>
+                    <param id="1" name="Height">9</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="3" name="Set at XY" sid="3243492402692011" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">23</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4556147579427637" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">1</param>
+                </action>
+                <action id="3" name="Set at XY" sid="5039489670843922" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6180000558805572" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">22</param>
+                </action>
+                <action id="3" name="Set at XY" sid="3749847969473005" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">2</param>
+                </action>
+                <action id="3" name="Set at XY" sid="5607843254697372" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4409072137746814" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">21</param>
+                </action>
+                <action id="3" name="Set at XY" sid="8623073800026533" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">3</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4390324604142416" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">&quot;None&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="3705830887615495" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">3</param>
+                    <param id="2" name="Value">24</param>
+                </action>
+                <action id="3" name="Set at XY" sid="8622493994862008" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">3</param>
+                    <param id="2" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6880859861532346">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="1719184547100941" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">22</param>
+                </action>
+                <action id="3" name="Set at XY" sid="1175545521995146" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">2</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7482691295727421" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;None&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9234578520648283">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="7966895175449132" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">21</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9318801217931753" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">3</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7263987689883385" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">&quot;None&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="575133124249204">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="4960857368054774" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">3</param>
+                    <param id="2" name="Value">24</param>
+                </action>
+                <action id="3" name="Set at XY" sid="936704702914541" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">3</param>
+                    <param id="2" name="Value">1</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7113004549390496" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">3</param>
+                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5144542161620516">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="3345253140909297" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">4</param>
+                    <param id="2" name="Value">27</param>
+                </action>
+                <action id="3" name="Set at XY" sid="1946931211881955" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">4</param>
+                    <param id="2" name="Value">2</param>
+                </action>
+                <action id="3" name="Set at XY" sid="1408641527852197" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">4</param>
+                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4776534736076966">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="5176613840066925" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">28</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9634981240372991" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">3</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7266353443028361" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1446864203697114">
+            <conditions />
+            <actions>
+                <action id="3" name="Set at XY" sid="6457479928716121" type="EnemyState">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">28</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4867558032625851" type="EnemyState">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">3</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7503405813125225" type="EnemyState">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">5</param>
+                    <param id="2" name="Value">&quot;Fire&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

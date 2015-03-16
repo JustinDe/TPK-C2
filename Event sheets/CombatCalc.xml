@@ -32,9 +32,6 @@
                             <param id="0" name="Instance variable">HP</param>
                             <param id="1" name="Value">TempEnemyHP</param>
                         </action>
-                        <action id="1" name="Append text" sid="5160567780896101" type="Debug">
-                            <param id="0" name="Text">EnemyFamily.HP</param>
-                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="5849236272116083">

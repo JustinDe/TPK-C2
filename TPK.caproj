@@ -294,42 +294,51 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-type name="Debug" sid="4498326727862694">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Touch" sid="6787442846696446">
-            <plugin id="Touch" />
-        </object-type>
-        <object-type global="1" name="ActiveHeros" sid="3945748887182337">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="ActiveEnemies" sid="737359875865221">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type global="1" name="PlayerState" sid="513480211747955">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type name="E1HP" sid="5537121816246721">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="E3HP" sid="7775309131039588">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="E2HP" sid="1043394603395269">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Function" sid="7060874954051473">
-            <plugin id="Function" />
-        </object-type>
-        <object-type name="HeroSelected" sid="6786805269145685">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="ActionSelected" sid="6056303532734339">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="EnemySelected" sid="4780308966887206">
-            <plugin id="Text" />
-        </object-type>
+        <object-folder name="Arrays">
+            <object-type global="1" name="ActiveEnemies" sid="737359875865221">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="ActiveHeros" sid="3945748887182337">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="EnemyState" sid="5706425619791494">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="PlayerState" sid="513480211747955">
+                <plugin id="Arr" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Text">
+            <object-type name="ActionSelected" sid="6056303532734339">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Debug" sid="4498326727862694">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="E1HP" sid="5537121816246721">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="E2HP" sid="1043394603395269">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="E3HP" sid="7775309131039588">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="EnemySelected" sid="4780308966887206">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="HeroSelected" sid="6786805269145685">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Other">
+            <object-type name="Function" sid="7060874954051473">
+                <plugin id="Function" />
+            </object-type>
+            <object-type name="Touch" sid="6787442846696446">
+                <plugin id="Touch" />
+            </object-type>
+        </object-folder>
     </object-folder>
     <families>
         <family name="HeroFamily" plugin-id="Sprite" sid="263504498170728">
