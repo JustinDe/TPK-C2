@@ -18,9 +18,6 @@
                     <param id="0" name="Variable">ActionSelected</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="1" name="Append text" sid="9246742130274661" type="Debug">
-                    <param id="0" name="Text">&quot;Action 1 Fire&quot;</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="8712027163379097">

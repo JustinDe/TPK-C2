@@ -431,8 +431,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>None</Element>
+                        <HP>3</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -457,8 +457,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>None</Element>
+                        <HP>2</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -483,8 +483,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>None</Element>
+                        <HP>1</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -509,8 +509,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Ice</Element>
+                        <HP>1</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -535,8 +535,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Ice</Element>
+                        <HP>2</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -561,8 +561,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Ice</Element>
+                        <HP>3</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -587,8 +587,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Fire</Element>
+                        <HP>1</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -613,8 +613,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Fire</Element>
+                        <HP>2</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -639,8 +639,8 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <Element></Element>
-                        <HP>0</HP>
+                        <Element>Fire</Element>
+                        <HP>3</HP>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

@@ -18,13 +18,13 @@
                     <param id="0" name="Text">&quot;Enemy Selected: &quot; &amp; EnemySelected</param>
                 </action>
                 <action id="0" name="Set text" sid="360660770578269" type="E1HP">
-                    <param id="0" name="Text">GuardNormal1.HP</param>
+                    <param id="0" name="Text">EnemyFamily.HP</param>
                 </action>
                 <action id="0" name="Set text" sid="4428341538563037" type="E2HP">
-                    <param id="0" name="Text">GuardNormal2.HP</param>
+                    <param id="0" name="Text">EnemyFamily.HP</param>
                 </action>
                 <action id="0" name="Set text" sid="3300060447225526" type="E3HP">
-                    <param id="0" name="Text">GuardNormal3.HP</param>
+                    <param id="0" name="Text">EnemyFamily.HP</param>
                 </action>
             </actions>
         </event-block>

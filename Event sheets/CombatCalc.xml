@@ -23,16 +23,7 @@
                             <param id="0" name="Unique ID">EnemySelected</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="6822003488342208" type="EnemyFamily">
-                            <param id="0" name="Instance variable">Element</param>
-                            <param id="1" name="Value">TempEnemyElement</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="5493064592528969" type="EnemyFamily">
-                            <param id="0" name="Instance variable">HP</param>
-                            <param id="1" name="Value">TempEnemyHP</param>
-                        </action>
-                    </actions>
+                    <actions />
                     <sub-events>
                         <event-block sid="5849236272116083">
                             <conditions>
@@ -418,6 +409,21 @@
                                                 </action>
                                             </actions>
                                         </event-block>
+                                        <event-block sid="7792907824639591">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="9468921615802623" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6520778744421749" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                                 <event-block sid="4385496809347237">
@@ -463,6 +469,21 @@
                                                 <action id="-12" name="Subtract from" sid="6240798055998752" type="EnemyFamily">
                                                     <param id="0" name="Instance variable">HP</param>
                                                     <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="941582250266767">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="8973499958306374" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="9892920560676461" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -566,6 +587,21 @@
                                                 </action>
                                             </actions>
                                         </event-block>
+                                        <event-block sid="5834938887564196">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="5191943403907514" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="9033049942508005" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                                 <event-block sid="3183419543631781">
@@ -611,6 +647,21 @@
                                                 <action id="-12" name="Subtract from" sid="9169548547671974" type="EnemyFamily">
                                                     <param id="0" name="Instance variable">HP</param>
                                                     <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="7350936276284931">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="767475177974714" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="8981108002314785" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -714,6 +765,21 @@
                                                 </action>
                                             </actions>
                                         </event-block>
+                                        <event-block sid="3054480126854421">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="3392389759178073" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="2982060031799691" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                                 <event-block sid="5060882755881004">
@@ -763,6 +829,21 @@
                                             </actions>
                                         </event-block>
                                     </sub-events>
+                                </event-block>
+                                <event-block sid="5376422796931063">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="705829692808498" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">Element</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;None&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="836703551022291" type="EnemyFamily">
+                                            <param id="0" name="Instance variable">HP</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
                                 </event-block>
                             </sub-events>
                         </event-block>
@@ -862,6 +943,21 @@
                                                 </action>
                                             </actions>
                                         </event-block>
+                                        <event-block sid="1934468128096339">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="4152987350347614" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6089054249045257" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                                 <event-block sid="8663312450678569">
@@ -907,6 +1003,21 @@
                                                 <action id="-12" name="Subtract from" sid="2254819816985155" type="EnemyFamily">
                                                     <param id="0" name="Instance variable">HP</param>
                                                     <param id="1" name="Value">0</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="1921479494116897">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="290632984689659" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">Element</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;None&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-12" name="Subtract from" sid="6149546632554771" type="EnemyFamily">
+                                                    <param id="0" name="Instance variable">HP</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>

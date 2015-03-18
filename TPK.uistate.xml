@@ -12,11 +12,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="1">Combat</layout>
         <event-sheet order="2">MasterSheet</event-sheet>
-        <event-sheet active="1" order="3">CombatStartUp</event-sheet>
+        <event-sheet order="3">CombatStartUp</event-sheet>
         <event-sheet order="4">CombatHeroSelect</event-sheet>
         <event-sheet order="5">CombatActionSelect</event-sheet>
         <event-sheet order="6">CombatEnemySelect</event-sheet>
-        <event-sheet order="7">CombatCalc</event-sheet>
+        <event-sheet active="1" order="7">CombatCalc</event-sheet>
         <event-sheet order="8">CombatHouseKeeper</event-sheet>
     </open-tabs>
     <properties>

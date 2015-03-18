@@ -15,139 +15,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Rekka.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="9121399106069452" type="Action1">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="7333538210828379" type="Action2">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="1008197506978828" type="Action3">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="9178508388752115" type="Action4">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="7841159487926701" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5904352651989461" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6668895513571004" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="171209260503512" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="747682380629041" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="2611260675966944" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="1603330113210337" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="6912215700454868">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="803607758176069" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6963607513806093" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6064271491919881" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="5613775373401788">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3119486300219927" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9950956320586833" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6173805947289182" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4224149400495844">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="6826848368173107" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="4835244358971618" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5357906823700895" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4278332854561738">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7184090307805935" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="4677938075731409" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5969046320010558" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="682666964390166">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="1338710218988053" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7699704277334802" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2881520967693948" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="5160747009518346">
             <conditions>
@@ -160,139 +32,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Jarzoka.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="8870717776885824" type="Action1">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="7397100382860147" type="Action2">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="6922176493716903" type="Action3">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="9503999309742379" type="Action4">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="2147626572614549" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7008840814197829" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="3293395209662536" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7550969430147312" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5807850154970751" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7777374770531889" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="9088383797416059" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="2032790986009778">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="4515156406666625" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8569350376411573" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8580313774697337" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1259086257372549">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7633010124230215" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7529509199730082" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6041623782242917" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="2772636580067505">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8902813539215816" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6090236386408056" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="1469560469838524" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="9625637431348783">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="9625744947456113" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="2072814398759018" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2659518508241311" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3226870728964074">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8646867554523948" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6197559113716904" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8863811559917857" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="5338727554501107">
             <conditions>
@@ -305,139 +49,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Lizen.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="7556369459399601" type="Action1">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="7027577621341586" type="Action2">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="6218004955618086" type="Action3">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="3739826740161885" type="Action4">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="9461749540718638" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8111061227904884" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="1750278448331271" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5289341134040179" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6922864781321182" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8876926950202776" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="5758255368829288" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="2395286954092892">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3133083131342294" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">2</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7284220922919997" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6629488435977142" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="2223022716432136">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7081155983757098" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">2</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9360799523300961" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8314169022023062" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1119845687764178">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="681865998219404" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">2</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="207489669564964" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9695252507842967" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4377301593790688">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8300159402325599" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">2</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6725722612668954" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="4440493378279387" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3209217045458368">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="6023618612195163" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">2</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8639173443278741" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6208824460404367" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="158933703686534">
             <conditions>
@@ -450,139 +66,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">MadWolf.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="5529837482591931" type="Action1">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="7963236514398219" type="Action2">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="9199841271931549" type="Action3">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="9558568252841853" type="Action4">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="5" name="Set frame" sid="2687777220337506" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="2583683936397806" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5603238619655528" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="465958775108151" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="9729180350963533" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8502419331243967" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="6383302165303641" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="1794609038153811">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3970855208695498" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="1566092504583482" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6301002596072476" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6831718320345992">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="9374713369460271" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7110060609946511" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5654709445713791" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3922477672508128">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8918826178265999" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7867921463980275" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9049673962659472" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3969257395186537">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="480696549550315" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6933426275103971" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2706794053234616" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7790587914605236">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8805428229678247" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">3</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9807286592643414" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2326669677524502" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="1857354438458958">
             <conditions>
@@ -595,139 +83,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Ashkel.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="586392337246369" type="Action1">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="5706977751177125" type="Action2">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="8271084913726285" type="Action3">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="8499822176793723" type="Action4">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="8377668709703509" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5585547570247297" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6585481886681744" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="2259129116199177" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="4450813338006828" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7954698582362616" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="9515153162811449" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="5600770321652909">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="1456256853277106" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">4</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="1558540613622266" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="407292132911763" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8923452018855898">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="1710322906846944" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">4</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="1325561137675926" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9979573492755508" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1315983156593601">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2930528908137557" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">4</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8224238402437575" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3371412870161445" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="9112736844024387">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="671259399565098" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">4</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="2496225574925671" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5571121456204244" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4969702828344079">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2272118634168737" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">4</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6851470705740825" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3843325519919435" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="4052454293294607">
             <conditions>
@@ -740,139 +100,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Luna.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="7014174741871872" type="Action1">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="7476048566215516" type="Action2">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="121100807949188" type="Action3">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="2641047302484791" type="Action4">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="3362205695265176" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="1287823150605655" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="430234595302343" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5572344531195437" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="3386083947161187" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="532886975322977" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="6960173520125042" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="2258090089943713">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3163177829360029" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="521775529236431" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3540346902000919" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3794085457737906">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="1031594549470843" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9257024820086821" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2385889165813016" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4682603845271205">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8114987415955649" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="3988075831297396" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9666149018733454" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="2436594290674488">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="6837208307645181" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7507768975638216" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2568885695999431" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4562998923178644">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="9834991053150243" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8062241007841632" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9130165828514324" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="9667916630609879">
             <conditions>
@@ -885,139 +117,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Zyra.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="9021833477759892" type="Action1">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="8530161782652417" type="Action2">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="6979972395510859" type="Action3">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="2132320443964889" type="Action4">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="6124327930315035" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8291284100227131" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6283122583554491" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8160809405715917" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8048734346468719" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6178559908977644" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="4110337642440365" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="1836650584663262">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="5437346128997937" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9169551032029761" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5807202823526667" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="709964911213684">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="69051843916137" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7679430278824422" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8928855213066249" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="910106169201121">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="4918132476444486" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7676062055743418" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="7390975372226598" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3490260146228483">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="811273876725912" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="5894591566914383" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="7593479072338435" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8589170675436943">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3941787619837684" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9292119238089171" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3606555345044869" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="3883435685861629">
             <conditions>
@@ -1030,139 +134,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Hans.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="221927806812451" type="Action1">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="4301267620222226" type="Action2">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="2958318576381645" type="Action3">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="162285431196908" type="Action4">
-                    <param id="0" name="Frame number">2</param>
-                </action>
-                <action id="5" name="Set frame" sid="7833238873178794" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6104378384643044" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="1674422218398712" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7818049095941992" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="58674968589653" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="9660408640516683" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="8274223610798219" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="3602681353181101">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7980296910260531" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">7</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8647984014142697" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="661627944963729" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6869719678115681">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2528005883881644" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">7</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="5055583372394675" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3888405392462098" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8891523474598914">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="5164011094481137" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">7</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="7935599594537408" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="4565425209578415" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="5102589337142916">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8641590715490959" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">7</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="1241892736773619" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="1467001707259216" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6606262006560568">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="5338094738209737" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">7</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="5273941733611636" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="9455703445290847" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="7569150279964634">
             <conditions>
@@ -1175,139 +151,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Marle.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="2065587517084119" type="Action1">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="2590840222155944" type="Action2">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="1897601033223787" type="Action3">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="5849737623300216" type="Action4">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="2845079018476038" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="1685133574409685" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8645905529282313" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="491695252602476" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7106933399772566" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="87197647717547" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="1805521574055661" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="2585018926363328">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8144499843830448" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">8</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="2884145774423166" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5111979569148769" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4555566196349522">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="1804710155120307" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">8</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="5075487154244705" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6427309965159295" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6863503831148721">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7097305219446796" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">8</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="4552576800460487" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3180072110241931" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7620425805447701">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="7286111639696095" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">8</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="4753820321658143" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="5603532003047624" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1468480776557468">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="4033403391602124" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">8</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="3418469284766039" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3644837233282759" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="699212058580705">
             <conditions>
@@ -1320,139 +168,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Vinsomen.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="3502473699518851" type="Action1">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="9134220592749135" type="Action2">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="5651160299174423" type="Action3">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="735274091851806" type="Action4">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="2154733864949771" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="8207162070672749" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5344130472083005" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7636996980287067" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="9107757397804104" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="7005505034112853" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="5408530064226483" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="7405802457235001">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2849294509831523" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">9</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8639476320599053" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3144278698147895" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="116091616956817">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="8094936516296834" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">9</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6096183612109694" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="7607631251878145" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1343594097314561">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2865125585757328" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">9</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9797464014632829" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="7960501251265434" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4287183727722521">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="3904556258207987" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">9</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="5400492092294088" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="1771516180560266" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="9830354625146654">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="5317352723779826" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">9</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="6571781223998408" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8415636973767146" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="9699090752855888">
             <conditions>
@@ -1465,139 +185,11 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Yarko.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="9284711401443166" type="Action1">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="3643586420535879" type="Action2">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="7415875813146729" type="Action3">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="7158546686352669" type="Action4">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="1469158502406168" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="583382542092214" type="Action1">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="9767840664066009" type="Action2">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="1794901479507436" type="Action3">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="6510518572232349" type="Action4">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="5147442552515355" type="Action5">
-                    <param id="0" name="Instance variable">Usable</param>
-                    <param id="1" name="Value">1</param>
+                <action id="0" name="Call function" sid="5585281672285371" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="8766298413704097">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="6085656542789146" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">10</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="9280166659894205" type="Action1">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="8142878281839576" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4698089078535022">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="5700662517977294" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">10</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="393860954781058" type="Action2">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="6212788486990367" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8705242500614841">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="2484163372517993" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">10</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="8580967291971856" type="Action3">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="2084698580092151" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4804662424082029">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="9979338438917626" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">10</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="2652458350652486" type="Action4">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3762832952555559" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="1583187975200368">
-                    <conditions>
-                        <condition id="1" name="Compare at XY" sid="9373346077938259" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">10</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="5" name="Set frame" sid="1598696071010441" type="Action5">
-                            <param id="0" name="Frame number">0</param>
-                        </action>
-                        <action id="-13" name="Set boolean" sid="3621249223489463" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="8623970079634964">
             <conditions>
@@ -1610,137 +202,1516 @@
                     <param id="0" name="Variable">HeroSelected</param>
                     <param id="1" name="Value">Vho.UID</param>
                 </action>
-                <action id="5" name="Set frame" sid="1100352039986537" type="Action1">
-                    <param id="0" name="Frame number">3</param>
+                <action id="0" name="Call function" sid="6294619887669304" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
                 </action>
-                <action id="5" name="Set frame" sid="7293963432016641" type="Action2">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="5640477393039492" type="Action3">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="9894046164249966" type="Action4">
-                    <param id="0" name="Frame number">3</param>
-                </action>
-                <action id="5" name="Set frame" sid="2323488956169866" type="Action5">
-                    <param id="0" name="Frame number">1</param>
-                </action>
-                <action id="-13" name="Set boolean" sid="4678120300877901" type="Action1">
+            </actions>
+        </event-block>
+        <event-block sid="278954913168174">
+            <conditions>
+                <condition id="0" name="On function" sid="4966803540965683" type="Function">
+                    <param id="0" name="Name">&quot;UpdateActions&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set boolean" sid="9186121824552454" type="Action1">
                     <param id="0" name="Instance variable">Usable</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="9389602836911338" type="Action2">
+                <action id="-13" name="Set boolean" sid="5734425738657243" type="Action2">
                     <param id="0" name="Instance variable">Usable</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="3723359722982327" type="Action3">
+                <action id="-13" name="Set boolean" sid="4822824038678975" type="Action3">
                     <param id="0" name="Instance variable">Usable</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="2469819584715744" type="Action4">
+                <action id="-13" name="Set boolean" sid="8617731298847542" type="Action4">
                     <param id="0" name="Instance variable">Usable</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-13" name="Set boolean" sid="6403687319645274" type="Action5">
+                <action id="-13" name="Set boolean" sid="4877743843968907" type="Action5">
                     <param id="0" name="Instance variable">Usable</param>
                     <param id="1" name="Value">1</param>
                 </action>
             </actions>
             <sub-events>
-                <event-block sid="2440409676605999">
+                <event-block sid="4487373918606126">
                     <conditions>
-                        <condition id="1" name="Compare at XY" sid="4238060324571988" type="PlayerState">
-                            <param id="0" name="X">1</param>
-                            <param id="1" name="Y">11</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
+                        <condition id="-14" name="Compare variable" sid="8815853722580107" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Rekka.UID</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="5959702728452195" type="Action1">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="7328026222159789" type="Action1">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="7739213394446835" type="Action1">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="2398658090053186" type="Action2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1071954974967034" type="Action3">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="4759049802490506" type="Action4">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="3616770090867616" type="Action5">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="5526223990958676">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4703249881228595" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6248961956137881" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8831833313498103" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6150782631411957">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4437830907360397" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7066944439256651" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6450416365182795" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6511575767498742">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4446325778399492" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3952566647292592" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="1630249319960897" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3146643187044374">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3282216963990431" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5999108770733593" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5249931959740272" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8816885404925849">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3884144668316355" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1553567555687207" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6073860296307331" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="6808028261141172">
+                <event-block sid="5312169455239752">
                     <conditions>
-                        <condition id="1" name="Compare at XY" sid="3315759285168957" type="PlayerState">
-                            <param id="0" name="X">2</param>
-                            <param id="1" name="Y">11</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
+                        <condition id="-14" name="Compare variable" sid="8000005305218562" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Jarzoka.UID</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="6147552564844505" type="Action2">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="9127004279152451" type="Action1">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8835457031603154" type="Action2">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="8393565326402373" type="Action2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="674854879981343" type="Action3">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="3139091421626967" type="Action4">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5413334528010194" type="Action5">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="3992694499638633">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5283241785147257" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="9498424804423592" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="584772321974165" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5410539480380678">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1290887288614824" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2681293410419279" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9251225734546348" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1277072513015698">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5933175259972714" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6839217435799785" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2712863027060179" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5619487505038434">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="7509538236416904" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="185770633479405" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2648949138980047" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9003783674827472">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4677542500231789" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3307445255700527" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7732652756582151" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="5767515614756475">
+                <event-block sid="324062143209047">
                     <conditions>
-                        <condition id="1" name="Compare at XY" sid="3481954203985815" type="PlayerState">
-                            <param id="0" name="X">3</param>
-                            <param id="1" name="Y">11</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
+                        <condition id="-14" name="Compare variable" sid="4622983859534408" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Lizen.UID</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="1031809200151242" type="Action3">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="9863015765704659" type="Action1">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="2310457000600645" type="Action3">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="2341324788305986" type="Action2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1572069636509049" type="Action3">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="3763993397178727" type="Action4">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1118817582095816" type="Action5">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="7633419318144129">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="944750692152772" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8109667889083717" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="4756082224383079" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="458727303382059">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2076154366708136" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2749596216901975" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8790711841314372" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4808121382589257">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4330496774557395" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6921266063115682" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7474646021887147" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3674024122629687">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1489656057702628" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2633483198296187" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5752857721281795" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5341766498507395">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5349186765346907" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">2</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7840953319630103" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6329416566899392" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="7852157398631542">
+                <event-block sid="3273740411664795">
                     <conditions>
-                        <condition id="1" name="Compare at XY" sid="2551342480552429" type="PlayerState">
-                            <param id="0" name="X">4</param>
-                            <param id="1" name="Y">11</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
+                        <condition id="-14" name="Compare variable" sid="7301340986242653" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">MadWolf.UID</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="9340700893440769" type="Action4">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="2198786982135604" type="Action1">
+                            <param id="0" name="Frame number">1</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8031618542010762" type="Action4">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="5410287741954352" type="Action2">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="645921933475113" type="Action3">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2551063598294158" type="Action4">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6801768855998402" type="Action5">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="5548420933298871">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5694193920817084" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7779577846471016" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5940913785144347" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6258432036512749">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="8000539528585758" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7151620468853777" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6560877467781341" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7989589999891228">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4885214701484319" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="4757242279069213" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="68225945086536" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5960670320922004">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="9026420050881028" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3732757303798367" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="3532688321137088" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="265692458480114">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2454662829087838" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">3</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="9704431957661163" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9549463889353988" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
-                <event-block sid="2594582309156818">
+                <event-block sid="3347297016522524">
                     <conditions>
-                        <condition id="1" name="Compare at XY" sid="2794137239885436" type="PlayerState">
-                            <param id="0" name="X">5</param>
-                            <param id="1" name="Y">11</param>
-                            <param id="2" name="Comparison">0</param>
-                            <param id="3" name="Value">0</param>
+                        <condition id="-14" name="Compare variable" sid="9152174978554919" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Ashkel.UID</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="5" name="Set frame" sid="7287556496721219" type="Action5">
-                            <param id="0" name="Frame number">0</param>
+                        <action id="5" name="Set frame" sid="1336529765942204" type="Action1">
+                            <param id="0" name="Frame number">2</param>
                         </action>
-                        <action id="-13" name="Set boolean" sid="8848640614040824" type="Action5">
-                            <param id="0" name="Instance variable">Usable</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="5" name="Set frame" sid="3179864695762547" type="Action2">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="4781894896937448" type="Action3">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5366905366739605" type="Action4">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1556305511366255" type="Action5">
+                            <param id="0" name="Frame number">1</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="743067675412682">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1974110953446538" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3049545109803265" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9111597578933178" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4699738565759818">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3940171244773616" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2848568576643972" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="388265095722692" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3694562032706861">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3603132763198276" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7354293864967077" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="235941094852543" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5108623348779944">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2161135325011339" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3695339693975349" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5145877749593135" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9388630346319103">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="7896086623910631" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6148478232111633" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5992054974682796" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4757922946144567">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="5991322388831076" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Luna.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="7480497396401334" type="Action1">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6028880570770167" type="Action2">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2398594894873943" type="Action3">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="9284286660359408" type="Action4">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="1123958992149042" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2666636893940193">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="6089286019995001" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2287387925139899" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="525020945312246" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3366667614955716">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2726490887385485" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8741425661153429" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5769335490503944" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8964498567717355">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="9286560699693464" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7468575661137073" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="1126860673145233" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3720810793140248">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3398694883993906" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="618528631329638" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5474203078807162" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9089488673759881">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4485787057473553" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2753212660184739" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6425045180997224" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6998677794836018">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="858561172645081" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Zyra.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="2945080566027261" type="Action1">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2074280361664016" type="Action2">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="9336968339332515" type="Action3">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="4169311185680183" type="Action4">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2004075422789335" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5408275898080359">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3778448445808023" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2454544428752331" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2147864828779245" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3192848304198574">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="8172298660692331" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="471116040631658" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7724606070992293" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="9512644322885197">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1497836289246818" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6118850099038221" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="4980606230587587" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5410674405351508">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2731660490555748" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2863866066761022" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2857335819477589" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5220037143201017">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="6675910297319819" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5075643197666066" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8770263033518901" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="4807078163825519">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6665956044035384" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Hans.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="5995397706285525" type="Action1">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="9512703905658576" type="Action2">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6552028343744216" type="Action3">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8516474070377172" type="Action4">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="208228159679513" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2490306769634916">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="7489182463749253" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">7</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2959764441805048" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5504284796722449" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2196917331561617">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5083168730131381" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">7</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8783484236488603" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6823654091236537" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2756104480120982">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="3173107048517299" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">7</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8715901692585012" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8317964071829032" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2960785809258863">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="4853438982780532" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">7</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="9503863830783213" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8168750560352725" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7191414010970699">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="336051062302326" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">7</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7034538869214571" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9385775274542838" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9612083740452608">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3874807518205424" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Marle.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4305545454792769" type="Action1">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="525628574236509" type="Action2">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5216777467732864" type="Action3">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="6584072240327654" type="Action4">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="4205481515270675" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="25919165350414">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5413339729664336" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">8</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="4987434656653866" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5255776973144558" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5076004458898476">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5554895480990674" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">8</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6749971894773981" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="5787909027938137" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2234142455645432">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="7754912544960184" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">8</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2639864510064471" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9763965574783457" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6777965465367242">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1687164541076624" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">8</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2823227220667339" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9855564560755075" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7496053386082545">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="9809525640990974" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">8</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="8063378110179903" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7061456700778625" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="6351633367634498">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3277678769884824" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Vinsomen.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="8949242300805012" type="Action1">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="794778504469091" type="Action2">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="938983741250043" type="Action3">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8715428371963913" type="Action4">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8727146015932466" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="1163219182176214">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5359463206235801" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">9</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3006882442631911" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="3742159856975684" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1364122426650255">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="9892406454804324" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">9</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3684627569358644" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="3819548127135252" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3374449607600286">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="6054792205495802" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">9</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6173761251621169" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="4928084258440242" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1552391789672097">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="8123342819220918" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">9</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1982647585882508" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="4839417620187174" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="4639617593499526">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="130324304201736" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">9</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1729174144431135" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="894357571238272" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="401958479518207">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8219116086003501" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Yarko.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="818645927025807" type="Action1">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="5422249801244933" type="Action2">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="4302650657872542" type="Action3">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="985076782808344" type="Action4">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="586155953954471" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6957160734154645">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2331718891552956" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">10</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5473938726147864" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="1208437337345267" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7321806216301841">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1513703838271324" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">10</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="4242850262526327" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9106361853759809" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3904821124164239">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5921698413206409" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">10</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="3033616708610482" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="165917489720721" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6170233053405758">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="8752023768024134" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">10</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="2183942846829503" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2290253775373676" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2005376223110959">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2965176372750294" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">10</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7222508932188765" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8916790585577857" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9258611046067456">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6796739374597643" type="System">
+                            <param id="0" name="Variable">HeroSelected</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Vho.UID</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4221745395347329" type="Action1">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="9835884804273629" type="Action2">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7194517602617854" type="Action3">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2029767987332748" type="Action4">
+                            <param id="0" name="Frame number">3</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="381645406101464" type="Action5">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2615278282708352">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="7477510940171102" type="PlayerState">
+                                    <param id="0" name="X">1</param>
+                                    <param id="1" name="Y">11</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="5333731190680828" type="Action1">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9506261629276403" type="Action1">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7214429919895668">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="5440476168042073" type="PlayerState">
+                                    <param id="0" name="X">2</param>
+                                    <param id="1" name="Y">11</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="4834132222039098" type="Action2">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="4952090204217246" type="Action2">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="456403177808649">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="373991139954297" type="PlayerState">
+                                    <param id="0" name="X">3</param>
+                                    <param id="1" name="Y">11</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7268543085198515" type="Action3">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="6797067986202754" type="Action3">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2443791710259081">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="1107421288356324" type="PlayerState">
+                                    <param id="0" name="X">4</param>
+                                    <param id="1" name="Y">11</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1977795233222379" type="Action4">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="8648291305774803" type="Action4">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8148500924825876">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="2625711859850827" type="PlayerState">
+                                    <param id="0" name="X">5</param>
+                                    <param id="1" name="Y">11</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1048848503075937" type="Action5">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="2680644346979871" type="Action5">
+                                    <param id="0" name="Instance variable">Usable</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
             </sub-events>
         </event-block>
